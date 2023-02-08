@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pallete Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="app">
+      <p class="text-center" id="hex-value"></p>
+      <button class="generator-btn" onclick="generateHex()">
+        Click to generate new color
+      </button>
+    </section>
+    <div class="icon-scroll">
+      <div class="icon-arrows">
+        <span></span>
+      </div>
+    </div>
+    <section class="pallete-generator">
+      <div id="app2"></div>
+      <nav>
+        <button class="generator-btn" onclick="setRandomColor()">
+          Click to generate new pallete
+        </button>
+      </nav>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
